@@ -1,0 +1,64 @@
+<head>
+  <title>Premium Brakery | Contact</title>
+  <link rel="stylesheet" href ="styles/all.css"/>
+  <link rel="stylesheet" href ="styles/contact.css"/>
+</head>
+<div class="navbar">
+  <img src="images/logo.jpeg" />
+      <div class="topnav-right">
+        <a href="homepage.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+      </div>
+</div>
+<body>
+  <div class="msgForm">
+    <h1>Contact Us</h1>
+    <div class="row">
+      <div class="contact-image">
+        <img src="images/contact-image.png"/>
+      </div>
+      <div class="contactInfo">
+        <h4>(905) 894-2334</h4>
+        <h4>info@premiumbrakery.com</h4>
+        <h4>1148 Oliverio Drive</h4>
+        <br>
+        <h4>Toronto, Ontario, Canada</h4>
+        <h4>L3C 0G7</h4>
+      </div>
+    </div>
+    <h2>Send Us a Message</h2>
+    <form action="https://formsubmit.co/ekanwar@civiconnect.ca" method="POST">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="John Doe" required><br><br>
+      <label for="email">Your Email:</label><br>
+      <input type="text" id="email" name="email" placeholder="jdoe@gmail.com" required><br><br>
+      <label for="country">Country</label><br>
+      <select id="country" name="country">
+        <option value="Canada">Canada</option>
+        <option value="USA">USA</option>
+        <option value="Australia">Australia</option>
+      </select>
+      <br><br>
+      <label for="subject">What is this regarding?</label><br>
+      <input type="radio" id="product" name="question" value="Product question">
+      <label for="product">Question(s) regarding our product(s)</label><br>
+      <input type="radio" id="business" name="question" value="Business question">
+      <label for="business">Question(s) regarding our business</label><br>
+      <input type="radio" id="inquiry" name="question" value="Inquiry">
+      <label for="inquiry">Inquiry about the delivery/return/exchange/payment processing</label><br>
+      <input type="radio" id="other" name="question" value="Other">
+      <label for="other">Other</label>
+      <br><br>
+      <label for="message">Your Message:</label><br>
+      <textarea id="subject" name="subject" placeholder="Enter your message" required></textarea><br><br>
+      <input type="reset">
+      <input type="submit" value="Send">
+    </form>
+    <div class="footer">
+      <p>_____</p>
+      <br><br><br>
+      <p>I'm adding some footer space</p>
+    </div>
+  </div>
+</body>

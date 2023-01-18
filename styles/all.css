@@ -1,0 +1,87 @@
+/* Eesha Kanwar */
+
+ /* Fonts ~ Code provided! */
+ @import url('https://fonts.cdnfonts.com/css/merriweather');
+ @import url('https://fonts.cdnfonts.com/css/inknut-antiqua'); 
+ @import url('https://fonts.cdnfonts.com/css/solitreo'); 
+
+ h1, h2 {
+  font-family: 'Inknut Antiqua', sans-serif;
+ }
+ 
+ h3 {
+  font-family: 'Solitreo', sans-serif;
+}
+ 
+ p, a, li, span, input, textarea, select, button {
+     font-family: 'Merriweather', serif;
+                                                 
+ }
+
+ /* Navbar styling */
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+/* Adding background color to the top navigation */
+div.navbar {
+    background-color: #111111;
+    overflow: hidden;
+}
+
+/* Styling the links inside the navigation bar */
+div.navbar a {
+  display: flex;
+  float: left;
+  gap: 16px;
+  color: #f2f2f2;
+  text-align: center;
+  justify-content: space-between;
+  padding: 14px 16px; 
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #111111;
+}
+
+/* Changing the color of links on hover */
+.topnav-right a:hover {
+  background-color: #ba813a;
+  color: #f2f2f2;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* CSS Reset ~ Provided code */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
